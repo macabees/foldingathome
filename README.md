@@ -29,4 +29,5 @@ Usage (userName/teamNumber):
 
 ## Help
 `$ docker run -it --rm macabees/foldingathome --help`
+
 Additional configuration parameters can be passed as command line arguments. 
