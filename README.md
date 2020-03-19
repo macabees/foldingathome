@@ -20,11 +20,11 @@ Note: requires `docker login`
 ## Run image
 Usage (Anonymous):
 
-`docker run --rm -it -p7396:7396 macabees/folding-at-home:latest --gpu=false --smp=true`
+`docker run --rm -it -p7396:7396 macabees/foldingathome:latest --gpu=false --smp=true`
 
 Usage (userName/teamNumber):
 
-`docker run --rm -it -p7396:7396 macabees/folding-at-home:latest \
+`docker run --rm -it -p7396:7396 macabees/foldingathome:latest \
 --user=userName --team=teamNumber --gpu=false --smp=true`
 
 ## Help
