@@ -16,6 +16,12 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
         apt-get autoremove -y &&\
         rm --recursive --verbose --force /tmp/* /var/log/* /var/lib/apt/
 
+#RUN echo "<config>\n\
+#  <!-- Folding Slots -->\n\
+#  <slot id='1' type='GPU'/>\n\
+#</config>\n"\
+#>> /etc/fahclient/config.xml
+
 # Web viewer
 EXPOSE 7396
 
